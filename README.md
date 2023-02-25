@@ -12,26 +12,31 @@ The columns which were used for analysis in this report were:
 
 1. PART 1: COMPARISON OF RENEWABLE ENERGY OF VARIOUS COUNTRIES
 1.1. Comparison of Total Energy Consumption
- 
+ ![image](https://user-images.githubusercontent.com/101862962/221346734-57ad679c-9fe6-4bc0-8b5b-aa8a6da220e1.png)
+
 
 It is evident from figure 1 that the total energy consumption is increasing for developing countries like China and India, whereas for developed countries like Germany, UK, and USA the total energy consumption is almost constant.
 1.2. Comparison of Renewable Energy 
- 
+ ![image](https://user-images.githubusercontent.com/101862962/221346743-7b3e9b53-e0a7-431b-ae37-67058182d590.png)
+
 
 As many countries are moving towards renewable energy, it is observed that Germany has the highest growth rate in renewable energy share over the years, when compared to countries like China, UK, and USA. 
 1.3. Comparison of Germany’s Renewable Energy
- 
+ ![image](https://user-images.githubusercontent.com/101862962/221346754-332e6fae-448f-478b-90b5-2b6029a1f7ed.png)
+
 
 In further analysis, the percentage of wind energy share for Germany is rapidly growing as compared to other sources of energy like solar and biofuel i.e., at the end of 2014, the %energy share of wind energy was 4.07, solar energy was 2.51, and biofuel energy was 0.91. 
 
 
 1.4. Comparison of GDP 
- 
+ ![image](https://user-images.githubusercontent.com/101862962/221346766-6a5b828e-1459-47e7-8ff7-39e57b7ac5c5.png)
+
 
 It is observed that all the countries have shown an increase in GDP for the two decades. But the growth rate GDP for developing countries like China and India is very high, whereas for developed countries like Germany, and UK the growth rate of GDP is very small.
 In addition to this, another method of performance comparison needs to be evaluated for comparing renewable energy resources over the time period. 
 1.5. Correlation of GDP per capita and %wind energy share for Germany 
- 
+ ![image](https://user-images.githubusercontent.com/101862962/221346772-cdebda96-666f-4262-8860-2de7c71a8ca6.png)
+
 
 Person coefficient: 0.98
 Kendall coefficient: 0.95  
@@ -58,7 +63,8 @@ H0: Germany_prop - World_prop = 0 (There is no significant difference)
 H1: Germany_prop - World_prop ≠ 0 (There is a significant difference)
  
 As p value is < 0.05, we reject the null hypothesis (H0: Germany_prop - World_prop = 0) and conclude that there is a significant difference (H1: Germany_prop - World_prop ≠ 0). Therefore the proportion of Germany's wind energy share > 1.5 is greater than proportion of rest of the World's wind energy share > 1.5. 
- 
+ ![image](https://user-images.githubusercontent.com/101862962/221346794-20df02c3-5d83-4bf5-add3-f8bc30adf323.png)
+
 
 Figure 6 describes the quartile range, minimum values and maximum values for the countries comparing their medians of % wind energy share. For Germany, it is observed that the median of % wind energy share is 1.86, whereas for rest of the World it is observed that the median of % wind energy share is 0.0515. 
 2.3. Hypothesis test for equality of means
@@ -67,6 +73,8 @@ H0: Mean_Germany – Mean_World = 0
 H1: Mean_Germany – Mean_World ≠ 0
  
 As p value is < 0.05, we reject the null hypothesis (H0: Mean_Germany – Mean_World = 0) and conclude that there is a significant difference (H1: Mean_Germany – Mean_World ≠ 0). We found that mean of %wind energy share of Germany is greater than Rest of the World.
+ ![image](https://user-images.githubusercontent.com/101862962/221346801-30ecc7bd-326a-410c-aa7d-7349c261c777.png)
+
  
 2.4. Part 2: Outcomes
 It clear from the above statistical tests that Germany’s wind energy usage is much higher than rest of the world’s wind energy usage. 
@@ -81,16 +89,13 @@ Linear regression is a useful statistical method we can use to understand the re
 •	Normality: The residuals of the model are normally distributed.
 3.2 Linear Regression Model
 Creating a linear regression model to predict % Wind energy Share for Germany for the years 2021-2050, using the existing data. 
+  ![image](https://user-images.githubusercontent.com/101862962/221346805-de27f57a-e89d-4a1a-8cbd-93aaa916d50c.png)
 
 
         Model Summary
 
 3.3 Diagnostic Plots
-
-
-
-
-
+  ![image](https://user-images.githubusercontent.com/101862962/221346820-efed86de-b2a1-4c10-98d0-3f98ec02a745.png)
 
 
 1. Residuals vs Fitted: Used to check the linear relationship assumptions. A horizontal line, without distinct patterns is an indication for a linear relationship, what is good.
@@ -103,7 +108,8 @@ Y = -455.655 + (0.228*X)
 %Wind energy share = -455.655 + (0.228*year)
 
 The Predicted values are: 
- 
+ ![image](https://user-images.githubusercontent.com/101862962/221346829-59eead70-b9f5-4332-8fbb-832d5332c14d.png)
+
 
 Conclusion
 After the analysis of various parameters, we can say that the Energy Consumption for developing countries is increasing more rapidly as compared to some developed countries. Similarly, the GDP is also increasing more rapidly as compared to some developed countries. Therefore, we can say that there is correlation between energy consumption and GDP for developing countries. Germany is one of the leading countries in wind energy consumption, and there is a strong positive correlation between wind energy share and GDP.
